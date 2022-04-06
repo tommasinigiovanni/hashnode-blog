@@ -3,8 +3,7 @@
 # The problem
 
 Do you worked with `asterisk 11.6` and `PostgreSQL 9`?  
-You decided to upgrade PostgreSQL to version `13`?  
-Now asterisk gives you **bad errors** at startup and most important **no longer saves** any lines in the **CDRs**?  
+You decided to upgrade PostgreSQL to version `13` and now Asterisk gives you **bad errors** at startup and most important **no longer saves** any lines in the **CDRs**?  
 
 ```bash
 ERROR[12558] res_config_pgsql.c: PostgreSQL RealTime: Query Failed: SELECT a.attname, t.typname, a.attlen, a.attnotnull, d.adsrc, a.atttypmod FROM (((pg_catalog.pg_class c INNER JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace AND c.relname = 'sipfriends' AND n.nspname = current_schema()) INNER JOIN pg_catalog.pg_attribute a ON (NOT a.attisdropped) AND a.attnum > 0 AND a.attrelid = c.oid) INNER JOIN pg_catalog.pg_type t ON t.oid = a.atttypid) LEFT OUTER JOIN pg_attrdef d ON a.atthasdef AND d.adrelid = a.attrelid AND d.adnum = a.attnum ORDER BY n.nspname, c.relname, attnum
