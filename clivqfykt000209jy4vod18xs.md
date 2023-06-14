@@ -5,6 +5,7 @@ seoDescription: "Scopri come unire facilmente un file video e un file audio util
 datePublished: Wed Jun 14 2023 13:13:14 GMT+0000 (Coordinated Universal Time)
 cuid: clivqfykt000209jy4vod18xs
 slug: come-unire-un-video-e-audio
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/iKdQCIiSMlQ/upload/0b78b4708b76a9eb0728aae3e3817542.jpeg
 tags: merge, video, audio, video-editing-app
 
 ---
